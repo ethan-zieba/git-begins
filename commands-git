@@ -3,3 +3,5 @@ Pour push des modifications locales vers le repository distant: git add [fichier
 Puis: git commit -m "message pour expliciter le commit" (le commit consiste à enregistrer une version du projet dans l'historique de versions)
 Et enfin: git push origin [branche] (origin étant le nom par défaut du dépot, et [branche] étant la branche, la "timeline" dans laquelle on veut push le commit)
 
+(Ajouté directement sur github)
+Pour pull, on exécute la commande: git pull (par défaut, va récupérer les changements sur la branche main, on peut cependant lui préciser une branche en ajoutant: origin branche_distante:branche_locale)
