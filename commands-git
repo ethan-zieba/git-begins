@@ -5,3 +5,9 @@ Et enfin: git push origin [branche] (origin étant le nom par défaut du dépot,
 
 (Ajouté directement sur github)
 Pour pull, on exécute la commande: git pull (par défaut, va récupérer les changements sur la branche main, on peut cependant lui préciser une branche en ajoutant: origin branche_distante:branche_locale)
+
+(Ajouté depuis le terminal, commit dans la branche "add-create-branch-command"
+Pour ajouter une branche (d'abord en local): git branch [nom]
+Pour basculer sur une branche: git checkout [nom]
+On peut, sinon, le faire en une seule commande: git checkout -b [nom]
+
